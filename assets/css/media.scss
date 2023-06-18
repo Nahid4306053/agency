@@ -1,0 +1,38 @@
+@media only screen and (max-width: 400px) and (min-width: 300px)  {
+    
+    .services_section .cards_sec .card_item {
+         height: 600px;
+      }
+      .slider_down_section .slide_control .butons{
+        button{
+       padding:0px ;
+      }
+    }
+    .slider_down_section {
+        .head_tilte h1{
+            color: white ;
+        }
+        .slide_section{
+            .slide_item{
+                margin-top: 0px;
+            }
+        }
+        height: auto;
+        width: 100vw;
+        padding-bottom: 100px;
+        background: linear-gradient(to right, #2e356b 50%, #2e356b 50%);
+    }
+    .services_section {
+        margin-top: 10%;
+        height: auto;
+    }
+    }
+
+    
+    @media only screen and (max-width: 1200px) and (min-width: 1000px)  {
+    
+    .services_section .cards_sec .card_item {
+         height: 700px;
+      }
+    }
+
